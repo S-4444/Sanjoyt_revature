@@ -18,7 +18,7 @@ public class Question1 {
 		Departure = departure;
 	}
 	public void printstatement() {
-		System.out.printf("%d %8 %12s %10s %10s\n",trainno , traincode, station , Arrival, Departure);
+		System.out.printf("%d %8s %12s %10s %10s\n",trainno , traincode, station , Arrival, Departure);
 	}
 	
 	public static void main(String[] args) {
